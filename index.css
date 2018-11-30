@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    
+}
+    
+header{
+    background-color: #0c5c70;
+    height: 3.5em;
+    box-shadow: 0 5px 10px #cccccc;
+    position: relative;
+    z-index: 100%;
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    
+}
+
+.menu{
+    padding-left: 10vw;
+}
+    
+.menu a {
+    background-color: rgb(16, 114, 128);
+    margin: 10px;
+    padding: 25px 30px;
+    border: 150px 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: 0.05;
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+    
+    
+
+}
+
+a:hover {
+    background-color: rgb(47, 171, 187);
+    color: #ffffff;
+    box-shadow: 0 2px 3px #909090;
+}
