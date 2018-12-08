@@ -14,21 +14,21 @@
 
 .contaner .contatos{
     float: left;
-    background-color: #EEEEEE;
-    height: 500px;
+    background-color: rgb(165, 43, 43);
+    height: 100vh;
     width: 30%;
 }
 
 .contaner .menssagens{
     float: left;
     background-color: cornflowerblue;
-    height: 500px;
+    height: 100vh;
     width: 70%;
 }
 
 .contaner .contatos .usuario{
     background-color: rgb(182, 23, 23);
-    height: 100px;
+    height: 70px;
     width: 100%;
 }
 
@@ -42,6 +42,59 @@
     background-color: rgb(63, 96, 243);
     height: 100vh;
     width: 100%;
+
+}
+
+input{
+    position: relative;
+    height: 30px;
+    width: 95%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.cardusua{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+
+
+.usuario{
+    overflow: hidden;
+}
+
+.foto{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-image: url(animaniacs-32250.jpg);
+    background-size: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+.nomeusua{
+    float: left;
+    height: 100px;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    
+    
+}
+
+.horadeenviou{
+    float: left;
+    height: 100px;
+    width: 25%;
 
 }
 
